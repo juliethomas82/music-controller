@@ -1,0 +1,42 @@
+# dependencies
+**/node_modules
+
+# testing
+coverage
+hs_*.log
+
+# python
+*.pyc
+venv
+deployvenv
+__pycache__
+.mypy_cache
+*.log
+*.log*
+
+# misc
+.DS_Store
+testspecfile.yml
+db.sqlite
+.ipynb_checkpoints
+.admiral_live.kdbx.lock
+*.swp
+stripe_local_setup_complete
+infrastructure/Brewfile.lock.json
+
+# frontend
+**/cypress/videos
+**/cypress/screenshots
+
+# IDE
+.idea/
+*.iml
+
+# Circle CI
+nohup.out
+UKMI.UAT.INS003.SITE003.INPUT.FTP
+UKMI.UAT.INS104.SITE801.INPUT.FTP
+UKMI.UAT.DAU104.SITE801.INPUT.FTP
+UKMI.UAT.DAU104.SITE801.INPUT1.FTP
+
+.vscode/terminals.json
